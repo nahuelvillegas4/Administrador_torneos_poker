@@ -1,79 +1,79 @@
-# Poker Tournament Management System
+# Sistema de Gestión de Torneos de Póker
 
-## Overview
+## Descripción General
 
-**Poker Tournament Management System** is a comprehensive web application designed to simplify the organization and management of poker tournaments. The system allows users to register tournaments, manage tables, players, croupiers, prizes, and more. The backend is built with a microservices-oriented architecture using Node.js, Express, and SQL, while the frontend is developed with React. This project was a collaborative effort to create a robust and scalable solution for poker tournament management.
+**Sistema de Gestión de Torneos de Póker** es una aplicación web integral diseñada para simplificar la organización y gestión de torneos de póker. El sistema permite a los usuarios registrar torneos, gestionar mesas, jugadores, crupieres, premios y más. El backend está construido con una arquitectura orientada a microservicios utilizando Node.js, Express y SQL, mientras que el frontend se desarrolla con React. Este proyecto fue un esfuerzo colaborativo para crear una solución robusta y escalable para la gestión de torneos de póker.
 
-## Features
+## Funcionalidades
 
-- **Tournament Management**: Register and manage multiple poker tournaments.
-- **Table Management**: Register and manage multiple poker tables.
-- **Player Tracking**: Keep track of all players in each tournament.
-- **Prize Distribution**: Manage and distribute prizes for tournaments.
-- **Info Table**: Information about poker hands.
+- **Gestión de Torneos**: Registra y gestiona múltiples torneos de póker.
+- **Gestión de Mesas**: Registra y gestiona múltiples mesas de póker.
+- **Seguimiento de Jugadores**: Lleva un seguimiento de todos los jugadores en cada torneo.
+- **Distribución de Premios**: Gestiona y distribuye premios para los torneos.
+- **Tabla de Información**: Información sobre manos de póker.
 
-## Tech Stack
+## Tecnologías Utilizadas
 
 - **Frontend**: React, HTML, CSS, Bootstrap, JavaScript
 - **Backend**: Node.js, Express
-- **Database**: SQLite
-- **Others**: Sequelize, Cors
+- **Base de datos**: SQLite
+- **Otros**: Sequelize, Cors
 
-## Installation and Setup
+## Instalación y Configuración
 
-### Prerequisites
+### Requisitos Previos
 
-- **Node.js**: Ensure you have Node.js installed on your machine.
+- **Node.js**: Asegúrate de tener Node.js instalado en tu máquina.
 
 
-### Installation
+### Instalación
 
-1. **Clone the repository**:
+1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/ginotombesi/poker-tournament-management.git
-   cd poker-tournament-management
+   git clone https://github.com/nahuelvillegas4/Administrador_torneos_poker.git
+   cd Administrador_torneos_poker
    ```
 
-2. **Navigate to the Backend directory**:
+2. **Navega al directorio del Backend**:
    ```bash
    cd Backend
    ```
 
-3. **Install Backend dependencies**:
+3. **Instala las dependencias del Backend**:
    ```bash
    npm install
    ```
 
-4. **Navigate to the Frontend directory**:
+4. **Navega al directorio del Frontend**:
    ```bash
    cd ../Frontend
    ```
 
-5. **Install Frontend dependencies**:
+5. **Instala las dependencias del Frontend**:
    ```bash
    npm install
    ```
 
-### Running the Application
+### Ejecutar la Aplicación
 
-1. **Start the Backend**:
-   - Open a terminal in the `Backend` directory and run:
+1. **Inicia el Backend**:
+   - Abre una terminal en el directorio Backend y ejecuta:
      ```bash
      npm run dev
      ```
-
-2. **Start the Frontend**:
-   - Open another terminal in the `Frontend` directory and run:
+     
+2. **Inicia el Frontend**:
+   - Abre otra terminal en el directorio Frontend y ejecuta:
      ```bash
      npm run dev
      ```
+     
+3. **Accede a la Aplicación**:
+   - Una vez que ambos servidores estén en funcionamiento, puedes acceder a la aplicación en tu navegador en http://localhost:3001 para los endpoints y `http://localhost:5173` para la página web.
 
-3. **Access the Application**:
-   - Once both servers are running, you can access the application in your browser at `http://localhost:3001` for the endpoints and `http://localhost:5173` for the webpage.
+## Créditos
 
-## Credits
-
-This project was developed by:
+Este proyecto fue desarrollado por:
 
 - **Gino Paolo Tombesi**  
 - **Nahuel Villegas**
@@ -81,9 +81,10 @@ This project was developed by:
 - **Marcos Belli**
 - **Juan Cortez**
 
-We worked together to bring this project to life, each contributing to different aspects of the development process, as part of the Software Development course in the Information Systems Engineering career at the UTN FRC.
+Trabajamos juntos para dar vida a este proyecto, cada uno contribuyendo a diferentes aspectos del proceso de desarrollo, como parte del curso de Desarrollo de Software en la carrera de Ingeniería en Sistemas de la UTN FRC.
 
+## Contacto
 
-## Contact
+[LinkedIn - Gino Tombesi](https://www.linkedin.com/in/gino-paolo-tombesi-a97524216/)
+[LinkedIn - Nahuel Villegas](https://www.linkedin.com/in/nahuel-villegas-b17382275/)
 
-[LinkedIn](https://www.linkedin.com/in/gino-paolo-tombesi-a97524216/)
