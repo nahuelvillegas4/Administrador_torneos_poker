@@ -1,0 +1,43 @@
+{
+    "name": "backend-tp-integrador-dds-2024",
+    "version": "1.0.0",
+    "description": "Backend TP integrador DDS 2024",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "swagger:gen": "node ./config/swagger.js",
+        "dev": "npx nodemon app.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --force-exit"
+    },
+    
+    "author": "Cortez, Belli, Rocca, Tombesi, Villegas",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.0.2",
+        "@eslint/js": "^9.0.0",
+        "@types/jest": "^29.5.12",
+        "eslint": "^8.57.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "globals": "^15.0.0",
+        "jest": "^29.7.0",
+        "nodemon": "^3.1.0",
+        "supertest": "^7.0.0",
+        "swagger-autogen": "^2.23.7",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.0"
+    },
+    "dependencies": {
+        "@jest/globals": "^29.7.0",
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "jsonwebtoken": "^9.0.2",
+        "sequelize": "^6.37.3",
+        "sqlite3": "^5.1.7"
+    }
+}
